@@ -1,0 +1,41 @@
+body{
+	text-align: center;
+	font-family: Arial;
+
+}
+
+#slogan {
+	font-style: italic;
+}
+
+h2 {
+	color: #ee4a3d;
+	font-style: Italic;
+	font-size: 80px; 
+}
+
+h3{ color: #f99d1e;
+	font-family: Arial;
+	font-size: 80px; 
+}
+
+.left 
+	{text-align: left;
+
+	}
+
+p {color: #4f4f4f;
+   font-size: 25px;
+   padding: 60px;
+
+}
+
+ul {color: #4f4f4f;
+   font-size: 25px;
+   padding: 60px;
+ }
+
+
+hr {
+	color: #4f4;
+}
