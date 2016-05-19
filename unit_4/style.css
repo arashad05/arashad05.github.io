@@ -1,22 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Abel);
 @import url(https://fonts.googleapis.com/css?family=Hind+Siliguri);
 @import url(https://fonts.googleapis.com/css?family=Arapey);
-
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
 	font-family: 'Arapey', serif;
 	text-align: center;
 }
 
-header {
-}
+header {width: 1200px;margin: auto;}
 
 a {
-	color: #71a844;;
+	color: #71a844;
 	text-decoration: none;
 }
 
 nav a {
-	color: #4f4f4f
+	color: #4f4f4f;
 	padding: 60px;
 }
 
@@ -25,6 +24,8 @@ img {
 }
 
 section {
+	border-top:1px solid;
+	padding: 5em 0;
 }
 
 #slogan {
@@ -41,6 +42,7 @@ h2, h3 {
 
 .left {
 	text-align: left;
+	/* float: left; */
 }
 
 .right{
@@ -48,19 +50,21 @@ h2, h3 {
 }
 
 .images{
-	width: 40em;
+	width: 100%;
 	position: center;
 }
 
 p, ul {
 	color: #4f4f4f;
- 	font-size: 20px;
- 	line-height: 1em;
- 	line-length: 20em;
- }
+	font-size: 20px;
+	line-height: 1em;
+	width: 20em;
+	margin: 1em auto 0;
+	list-style-type: none;
+}
 
 
 hr {
-	color: #4f4;
+	border: 1px solid #4f4;
 }
 
