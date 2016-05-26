@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Hind+Siliguri);
+@import url(https://fonts.googleapis.com/css?family=Arapey);
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	font-family: 'Arapey', serif;
+	text-align: center;
+	font size: 12px;
+}
+
+#Wrapper {
+	background-color: #71a844;
+	width: 960px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+a {
+	color: #71a844;
+	text-decoration: none;
+}
+
+nav a {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+}
+
+img {
+	width: 180px;
+}
+
+
+
+h2, h3 {
+	color: #71a844;
+	font-size: 50px;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-weight: lighter;
+}
+
+p, ul {
+	color: #4f4f4f;
+	font-size: 20px;
+	line-height: 1em;
+	width: 30em;
+	margin: 1em auto 0;
+	list-style-type: none;
+	padding: .8em 0;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.right{
+	img-align: right;
+}
+
+.images{
+	width: 500px;
+	position: center;
+}
+
+.specialp{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#slogan {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+#about{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+#flavors{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#events{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#contact {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+
+#footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+
+
+
+
+
