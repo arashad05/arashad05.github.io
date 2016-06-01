@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Hind+Siliguri);
 @import url(https://fonts.googleapis.com/css?family=Arapey);
 * {margin:0;padding:0;box-sizing:border-box;}
+
 body {
 	font-family: 'Arapey', serif;
 	text-align: center;
@@ -10,6 +11,12 @@ body {
 #Wrapper {
 	background-color: #71a844;
 	width: 960px;
+}
+
+color bar {
+	background-color: #71a844;
+	width: 100%;
+	height: 100px;
 }
 
 header {
@@ -24,7 +31,8 @@ a {
 
 nav a {
 	color: #4f4f4f;
-	padding: 60px;
+	padding: 20px;
+	font-size: 25px;
 }
 
 img {
@@ -32,7 +40,6 @@ img {
 }
 
 section {
-	border-top: 3px dotted;
 }
 
 h2, h3 {
@@ -40,6 +47,7 @@ h2, h3 {
 	font-size: 50px;
 	font-family: 'Hind Siliguri', sans-serif;
 	font-weight: lighter;
+	padding: .5em 0;
 }
 
 p, ul {
@@ -49,60 +57,23 @@ p, ul {
 	width: 30em;
 	margin: 1em auto 0;
 	list-style-type: none;
-	padding: .8em 0;
-
-.left {
-	text-align: left;
-	/* float: left; */
+	padding: .5em 0 3em;
 }
 
-.right{
+.right {
 	img-align: right;
 }
 
-.images{
+.images {
 	width: 500px;
 	position: center;
 }
 
-.specialp{
+.specialp {
 	font-weight: bold;
 	font-size: 30px;
-}
-
-#slogan {
-	font-size: 60px;
-	text-transform: uppercase;
-	color: #71a844;
-	text-align: bottom;
-	background: url(images/mainimage.png) center repeat-x;
-	padding: 5em 0;
-
-}
-
-#about{
-
-}
-
-#flavors{
-
-}
-
-#events{
-	background-color: rgba(242,157,51, 0.6)
-}
-
-#contact {
-	background: url(images/pomegranate.png) left no-repeat; 
-	border: none;
-}
-
-#footer {
-	background-color: #71a844;
-	color: #000;
-	width: 100%;
-	border: none;
-}
+	color: #fff;
+} 
 
 .bottom {
 	font-size: 12px
@@ -113,6 +84,55 @@ p, ul {
 .space {
  	padding: 1em;
  }
+
+.images2 {
+	wi
+}
+
+.white {
+	color: #fff;
+
+}
+
+#slogan {
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #71a844;
+	text-align: bottom;
+	padding: .8em;
+	background: url(images/MainImage.png);
+	background-size: 800px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+}
+
+#about{
+	background-color: #e93f33;
+}
+
+#flavors{
+
+}
+
+#events{
+	background-color: rgb(242,157,51);
+	float: upper-right;
+}
+
+#contact {
+	background: url(images/pomegranate.png) 20px left no-repeat; 
+	border: none;
+	width
+}
+
+#footer {
+	background-color: #4f4f4f;
+	color: #fff;
+	width: 100%;
+}
+
 
 
 
