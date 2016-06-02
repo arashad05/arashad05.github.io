@@ -68,7 +68,7 @@ footer{
 .images {
 	width: 300px;
 	float: left;
-	clearfix: both;
+	margin: 0 0 10em 10em;
 }
 
 .specialp {
