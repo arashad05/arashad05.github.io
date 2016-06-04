@@ -8,13 +8,6 @@ body {
 	font size: 12px;
 }
 
-#wapper {
-	background-color: #71a844;
-	width: 960px;
-	padding: 5em 0;
-}
-
-
 header {
 	padding: 2em 0;
 	position: center;
@@ -136,7 +129,7 @@ footer{
 }
 
 #splash {
-	background: url(images/Mainimage.png);
+	background: url(images/mainimage.png);
 	background-size: 800px;
 	background-repeat: no-repeat;
 	background-position: center;
