@@ -7,11 +7,6 @@ body {
 	font size: 12px;
 }
 
-#Wrapper {
-	background-color: #71a844;
-	width: 960px;
-}
-
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -28,13 +23,10 @@ nav a {
 	border: 1px black solid;
 	padding: 20px;
 }
-}
 
 img {
 	width: 180px;
 }
-
-
 
 h2, h3 {
 	color: #71a844;
@@ -68,7 +60,7 @@ footer {
 	position: center;
 }
 
-.specialp{
+.specialp {
 	font-weight: bold;
 	font-size: 30px;
 }
@@ -77,14 +69,12 @@ footer {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
-
 }
 
 #about{
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
-
 }
 
 #flavors{
@@ -103,12 +93,9 @@ footer {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
-
-#footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
 }
+
+
 
 
 

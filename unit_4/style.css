@@ -16,8 +16,7 @@ body {
 
 
 header {
-	width: 1200px;
-	margin: 2em;
+	padding: 2em 0;
 	position: center;
 }
 
@@ -26,26 +25,31 @@ a {
 	text-decoration: none;
 }
 
+/*LoVE HAte: link, visited, hover, active*/ 
+
 nav a {
+	font-family:'Hind Siliguri', sans-serif;
+	text-transform: uppercase;
 	color: #4f4f4f;
-	padding: 20px;
-	font-size: 25px;
-	margin: 8em 0;
+	padding: 90px;
+	font-size: 20px;
+	margin: 10em 0 5em 0;
 }
 
 img {
 	width: 180px;
-
+	postion: center;
 }
 
 section {
-	padding: 5em 0;
+	background-position: cover;
+	padding: 20px 0 30px 0;
 }
 
 h2, h3 {
 	font-size: 50px;
 	font-family: 'Hind Siliguri', sans-serif;
-	font-weight: lighter;
+	text-align: center
 }
 
 p, ul {
@@ -54,21 +58,38 @@ p, ul {
 	width: 30em;
 	margin: 1em auto 0;
 	list-style-type: none;
-	padding: .5em 0 3em;
+	padding: 0 0 1em 0;
 }
 
 footer{
 	background-color: #4f4f4f;
+	color: #fff;
+	display: block;
+	padding: 2px;	
+	text-align: center;
+}
+
+main section  > h2 {
+	text-align: center;
 }
 
 .right {
-	img-align: right;
+	float: right;
+	margin: .5em 8em 2em 0;
 }
 
-.images {
-	width: 400px;
+.left {
 	float: left;
-	margin: 0 0 10em 10em;
+	margin: 0 0 0 8em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear: both;
 }
 
 .specialp {
@@ -93,10 +114,6 @@ footer{
 	font-weight: bold;
 }
 
-#nav {
-	margin: 2em;
-}
-
 
 #slogan {
 	font-size: 50px;
@@ -116,20 +133,26 @@ footer{
 	margin: .1em 0;
 }
 
-#about{
+#about {
 	background-color: #e93f33;
 	color: #fff;
+	line-height: 
 }
 
-#flavors{
-	color:	#71a844;
-}
-
-#smoothie{
+#aboutfoot	{	
 
 }
 
-#events{
+#flavors {
+	color:	#fff;
+	background: url(images/banner2.png) no-repeat center;
+	background-size: cover;
+	position: center;
+	height: 100%;
+	padding: 80px;
+}
+
+#events {
 	background-color: rgb(242,157,51);
 	color: #fff;
 }
@@ -138,17 +161,10 @@ footer{
 	color: #71a844;
 }
 
-#footer {
-	background-color: #4f4f4f;
-	color: #fff;
-	width: 100%;
-	margin: 1em 0;
-}
+
 
 #foodtruck {
 	width: 800px;
-	float: right;
-	clear: both;
 	margin: 0 0 1em 1em ;
 }
 

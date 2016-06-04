@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Hind+Siliguri);
+@import url(https://fonts.googleapis.com/css?family=Arapey);
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	font-family: 'Arapey', serif;
+	text-align: center;
+	font size: 12px;
+}
+
+#wapper {
+	background-color: #71a844;
+	width: 960px;
+	padding: 5em 0;
+}
+
+
+header {
+	padding: 2em 0;
+	position: center;
+}
+
+a {
+	color: #71a844;
+	text-decoration: none;
+}
+
+/*LoVE HAte: link, visited, hover, active*/ 
+
+nav a {
+	font-family:'Hind Siliguri', sans-serif;
+	text-transform: uppercase;
+	color: #4f4f4f;
+	padding: 90px;
+	font-size: 20px;
+	margin: 10em 0 5em 0;
+}
+
+img {
+	width: 180px;
+	postion: center;
+}
+
+section {
+	background-position: cover;
+	padding: 20px 0 30px 0;
+}
+
+h2, h3 {
+	font-size: 50px;
+	font-family: 'Hind Siliguri', sans-serif;
+	text-align: center
+}
+
+p, ul {
+	font-size: 20px;
+	line-height: 1em;
+	width: 30em;
+	margin: 1em auto 0;
+	list-style-type: none;
+	padding: 0 0 1em 0;
+}
+
+footer{
+	background-color: #4f4f4f;
+	color: #fff;
+	display: block;
+	padding: 2px;	
+}
+
+
+/*class selectors*/
+
+
+.right {
+	float: right;
+	width: 30%; /*don't forget the width with floats!*/
+	/*margin: .5em 8em 2em 0;*/
+}
+
+.left {
+	float: left;
+	width: 30%;
+	margin: 0 0 0 8em;*/
+}
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear: both;
+}
+
+.specialp {
+	font-weight: bold;
+	font-size: 30px;
+	font-
+} 
+
+.bottom {
+	font-size: 12px
+	font-weight: bold;
+	color: #fff;
+}
+
+.space {
+ 	padding: .5em 0;
+ }
+
+
+.white {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.strawberry {
+	width: 20%;
+}
+
+.truck{
+	width: 50%;
+}
+
+/*id selectors*/
+
+#slogan {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #71a844;
+	padding: 20px 30px 20px 30px;
+	border-top: 1px solid;
+	border-color: #4f4f4f;
+}
+
+#splash {
+	background: url(images/Mainimage.png);
+	background-size: 800px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	margin: .1em 0;
+}
+
+#about {
+	background-color: #e93f33;
+	color: #fff;
+	line-height: 
+}
+
+#aboutfoot	{	
+
+}
+
+#flavors {
+	color:	#fff;
+	background: url(images/banner2.png) no-repeat center;
+	background-size: cover;
+	position: center;
+	height: 100%;
+	padding: 80px;
+}
+
+#events {
+	background-color: rgb(242,157,51);
+	color: #fff;
+	text-align: right;
+}
+
+#contact {
+	color: #71a844;
+}
+
+
+
+#foot {
+	text-align: left;
+
+}
+
+
+
+/*#left {
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
