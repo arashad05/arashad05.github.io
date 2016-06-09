@@ -35,7 +35,7 @@ img {
 }
 
 section {
-	background-position: cover;
+	background-size: cover;
 	padding: 20px 0 30px 0;
 }
 
@@ -74,7 +74,14 @@ footer{
 .left {
 	float: left;
 	width: 30%;
-	margin: 0 0 0 8em;*/
+	padding: 0 0 20px;
+	margin: 0 0 5em 8em;
+}
+
+.left2 {
+	float: left;
+	width: 30%;
+	margin: 0 0 3em 3em;
 }
 
 .clearfix:after {
@@ -115,6 +122,9 @@ footer{
 
 .truck{
 	width: 50%;
+}
+
+.wrapper {
 }
 
 /*id selectors*/
