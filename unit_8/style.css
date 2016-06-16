@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	padding: 1em 0;
+	padding: 3em 0;
 	position: center;
 }
 
@@ -26,16 +26,15 @@ nav a {
 	font-family:'Hind Siliguri', sans-serif;
 	text-transform: uppercase;
 	color: #4f4f4f;
-	font-size: 1.5em;
-	padding: 2em;
+	font-size: 1em;
+	padding: 3%;
 	margin: 10em 0;
 }
 
 
 img {
-	width: 180px;
-	postion: center;
-	padding-top: .5em 0 3em;
+	width: 30%;
+	padding: 2em;
 }
 
 section {
@@ -52,18 +51,19 @@ h2, h3 {
 p, ul {
 	font-size: 2em;
 	line-height: 1em;
-	width: 30em;
-	margin: 1em auto 0;
+	/*width: 3em;*/ 
+	margin: 1em auto;
 	list-style-type: none;
-	padding: 0 0 1em 0;
+	padding: 0 1.5em;
 }
 
-footer{
+footer {
 	background-color: #4f4f4f;
 	color: #fff;
 	display: block;
 	padding: 2em;	
 }
+
 
 
 /*class selectors*/
@@ -79,18 +79,15 @@ footer{
 	width: 100%;
 }
 
+.right img {
+	width: 100%;
+
+}
+
 .left {
 	float: left;
 	width: 30%;
 	padding: 0 0 2%;
-	margin: 0 0 .3em 10em;
-}
-
-.left2 {
-	float: left;
-	width: 30%;
-	margin: 0 0 .5em .5%;
-	padding-left: 5em;
 }
 
 .clearfix:after {
@@ -105,19 +102,13 @@ footer{
 .specialp {
 	font-weight: bold;
 	font-size: 2.5em;
-	font-
 } 
 
-.bottom {
-	font-size: 12px
+bottom {
+	font-size: 5em;
 	font-weight: bold;
 	color: #fff;
 }
-
-.space {
- 	padding: .5em 0;
- }
-
 
 .white {
 	color: #fff;
@@ -125,18 +116,6 @@ footer{
 	font-weight: bold;
 }
 
-.strawberry {
-	width: 20%;
-}
-
-.truck{
-	width: 50%;
-}
-
-.wrapper {
-}
-
-/*id selectors*/
 
 #slogan {
 	font-size: 50px;
@@ -159,11 +138,6 @@ footer{
 #about {
 	background-color: #e93f33;
 	color: #fff;
-	line-height: 
-}
-
-#aboutfoot	{	
-
 }
 
 #flavors {
@@ -181,9 +155,23 @@ footer{
 	text-align: right;
 }
 
+#events ul { 
+	font-size: 1.5em; 
+
+}
+
+#events p {
+	font-size: 2em;
+}
+
+#events img {
+	float: left;
+	width: 75%;
+	padding-left: 3em 0;
+}
+
 #contact {
 	color: #71a844;
-	text-align: left;
 }
 
 #contact div {
@@ -191,34 +179,40 @@ footer{
 	padding-left: 2em;
 }
 
-#contact h2 {
-	text-align: left; 
+#contact img {
+	width: 30%
 }
-
 
 #foot {
 	text-align: left;
-
 }
 
-#wrapper {
+.wrapper {
 	width: 100%;
 	margin: 0 auto;
 }
 
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+	body {
+		font-size: 12px;
+		float: none;
+	}
 
-/*#left {
-	background-color: #e582a2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
+	nav {
+		font-size: 3em;
+		padding: 3em 0 ;
+		margin: 1em 0;
+		background-color: #71a844;
+		width: 100%
+	}
+
+	nav a {
+		color: #fff;
+	}
+
+	img {
+		width: 100%
+		height: auto;
+	} 
 }
 
-#right {
-	background-color: #e55b88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
-}
