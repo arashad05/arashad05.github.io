@@ -13,27 +13,22 @@ header {
 	position: center;
 }
 
-
-
 a {
 	color: #71a844;
 	text-decoration: none;
 }
-
-/*LoVE HAte: link, visited, hover, active*/ 
 
 nav a {
 	font-family:'Hind Siliguri', sans-serif;
 	text-transform: uppercase;
 	color: #4f4f4f;
 	font-size: 1em;
-	padding: 3%;
+	padding: 3em 2em;
 	margin: 10em 0;
 }
 
-
-img {
-	width: 30%;
+header img {
+	width: 300px;
 	padding: 2em;
 }
 
@@ -42,17 +37,20 @@ section {
 	padding: 4em 0;
 }
 
+/*img {
+	width: 100%;
+	height: auto;*/
+}
+
 h2, h3 {
-	font-size: 3em;
+	font-size: 5em;
 	font-family: 'Hind Siliguri', sans-serif;
-	text-align: center
+	text-align: center;
 }
 
 p, ul {
 	font-size: 2em;
 	line-height: 1em;
-	/*width: 3em;*/ 
-	margin: 1em auto;
 	list-style-type: none;
 	padding: 0 1.5em;
 }
@@ -61,33 +59,35 @@ footer {
 	background-color: #4f4f4f;
 	color: #fff;
 	display: block;
-	padding: 2em;	
+	padding: 2em;
+	text-align: left;	
 }
 
+footer img {
+	width: 400px;
+}
 
-
-/*class selectors*/
-
+footer p {
+	font-size: 1em;
+	line-height: 1em;
+	list-style-type: none;
+	padding: 0 1.5em;
+	text-align: left;
+}
 
 .right {
 	float: right;
-	width: 30%; /*don't forget the width with floats!*/
-	/*margin: .5em 8em 2em 0;*/
 }
 
 .right p {
+	font-size: 2em;
 	width: 100%;
+	padding: 1em 0 .3em 2.5em;
+
 }
 
 .right img {
-	width: 100%;
-
-}
-
-.left {
-	float: left;
-	width: 30%;
-	padding: 0 0 2%;
+	width: 50%;
 }
 
 .clearfix:after {
@@ -102,9 +102,16 @@ footer {
 .specialp {
 	font-weight: bold;
 	font-size: 2.5em;
+	text-align: center;
 } 
 
-bottom {
+/*.specialp2 {
+	font-weight: bold;
+	font-size: 2.5em;
+	text-align: right;*/
+} 
+
+.bottom {
 	font-size: 5em;
 	font-weight: bold;
 	color: #fff;
@@ -116,37 +123,49 @@ bottom {
 	font-weight: bold;
 }
 
+.left {
+	float: left;
+	width: 50%;
+	margin: 4em 0;
+	padding-left: 4em;
+}
 
 #slogan {
-	font-size: 50px;
+	font-size: 3.5em;
 	text-transform: uppercase;
-	color: #71a844;
-	padding: 20px 30px 0;
-	border-top: 1px solid;
+	color: #6fa543;
+	padding: .8em 1em .8em 0;
+	border-top: .02em solid;
 	border-color: #4f4f4f;
 }
 
 #splash {
 	background: url(images/MainImage.png);
-	background-size: 800px;
+	background-size: 1205px;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 700px;
+	height: 800px;
 	padding-top: 0;
 }
 
 #about {
 	background-color: #e93f33;
 	color: #fff;
+	font-size: .8em;
+}
+
+#about img {
+	width: 308px;
+	padding: 1em; 
 }
 
 #flavors {
 	color:	#fff;
-	background: url(images/banner2.png) no-repeat center;
+	background: url(images/banner2.png);
 	background-size: cover;
 	position: center;
-	height: 100%;
-	padding: 80px;
+	width: 100%;
+	height: auto;
 }
 
 #events {
@@ -156,35 +175,31 @@ bottom {
 }
 
 #events ul { 
-	font-size: 1.5em; 
-
+	font-size: 1.5em;
+	padding: .1em 2em 0; 
 }
 
 #events p {
 	font-size: 2em;
+	text-align: right;
 }
 
 #events img {
 	float: left;
-	width: 75%;
-	padding-left: 3em 0;
+	width: 60%;
+	padding: 8em .5em 0;
 }
 
 #contact {
 	color: #71a844;
 }
 
-#contact div {
+.left {
 	float: left;
-	padding-left: 2em;
 }
 
 #contact img {
-	width: 30%
-}
-
-#foot {
-	text-align: left;
+	width: 28%;
 }
 
 .wrapper {
@@ -192,27 +207,180 @@ bottom {
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 320px) {
+@media only screen and (max-width: 818px){
+	#contact {
+
+	}
+	#contact img {	
+	}
+
+
+}
+
+@media only screen and (max-width: 769px) {
 	body {
-		font-size: 12px;
+		font-size: 18px;
 		float: none;
-	}
-
-	nav {
-		font-size: 3em;
-		padding: 3em 0 ;
-		margin: 1em 0;
-		background-color: #71a844;
-		width: 100%
-	}
-
-	nav a {
-		color: #fff;
 	}
 
 	img {
 		width: 100%
-		height: auto;
 	} 
+
+	nav {
+		font-size: 1.5em;
+	}
+
+	#slogan {
+		font-size: 2em;
+	}
+
+	#splash {
+		width: 100%;	
+		margin: 0 auto;
+	}
+
+	#events img {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+
+	#events p {
+		font-size: 1.5em;
+		text-align: center;
+		padding: 0 2em 0;
+	}
+
+	#events ul {
+		font-size: 1.5em;
+		text-align: center;
+		padding: 1em 2em;
+	}
+	
+	#contact p {
+		font-size: 1.5em;
+		padding: 1em 2em 0;
+
+	}
+
+	#contact img {
+		float: none;
+		width: 50%;
+		height: auto;
+	}
+
+	.right {
+		float: none;
+		width: 100%;
+	}
+
+	footer ul, p  {
+		text-align: center;
+	} 
+
+	footer img {
+		width: 10%;
+	}
 }
 
+@media only screen and (max-width: 762px){  
+	img {
+		width: 50%;
+		height: auto;
+	}
+}	
+
+@media only screen and (max-width: 756px){
+	nav {
+		font-size: 1em;
+	}
+
+	p. ul {
+		font-size: 1em;
+	}
+
+	img	{
+		width: 20%;
+	}
+
+	.specialp {
+		font-size: 1.6em;
+	}
+
+	#contact p {
+
+	}
+  }	
+
+@media only screen and (max-width: 509px) {
+
+	img {
+		width: 100%;
+	}
+
+	nav {
+		font-size: 2em;
+		/*padding: .5em;
+		margin: .5em 0;*/
+		background-color: rgba(111, 165, 67,0.5);
+		width: 100%;
+	}
+
+	nav a {
+		color: #fff;
+		display: block;
+		padding: 1em;
+		margin: 0;	
+	}
+
+	#slogan {
+		font-size: 2em;
+		border-top: none;
+		padding-bottom: 2em;
+	}
+
+	#splash {
+		width: 100%;
+		height: 300px;
+		border: none;
+	}
+
+	footer {
+		text-align: center;
+		float: none;
+		padding: 2em;
+		font-size: 1em;
+	}
+
+	footer ul, p  {
+		text-align: center;
+	} 
+
+	footer div {
+		float: none;
+		text-align: center
+	}
+
+	.right {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	body {
+		float: none;
+		text-align: center;
+	}
+
+	#events img {
+		float: none;
+		width: 100%;
+		height: auto;
+		padding-top: .5em;	
+	}
+
+	#contact {}
+
+}
