@@ -39,11 +39,11 @@ section {
 
 /*img {
 	width: 100%;
-	height: auto;*/
-}
+	height: auto;
+}*/
 
 h2, h3 {
-	font-size: 5em;
+	font-size: 4em;
 	font-family: 'Hind Siliguri', sans-serif;
 	text-align: center;
 }
@@ -100,7 +100,6 @@ footer p {
 }
 
 .specialp {
-	font-weight: bold;
 	font-size: 2.5em;
 	text-align: center;
 } 
@@ -134,13 +133,13 @@ footer p {
 	font-size: 3.5em;
 	text-transform: uppercase;
 	color: #6fa543;
-	padding: .8em 1em .8em 0;
+	padding: .8em 1em 0;
 	border-top: .02em solid;
 	border-color: #4f4f4f;
 }
 
 #splash {
-	background: url(images/MainImage.png);
+	background: url(images/mainimage.png);
 	background-size: 1205px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -207,15 +206,6 @@ footer p {
 	width: 100%;
 	margin: 0 auto;
 }
-
-@media only screen and (max-width: 818px){
-	#contact {
-
-	}
-	#contact img {	
-	}
-
-
 }
 
 @media only screen and (max-width: 769px) {
@@ -314,7 +304,51 @@ footer p {
 	}
   }	
 
+@media only screen and (max-width: 696px){
+
+	body {
+		text-align: center;
+	}
+
+	#events ul {
+		text-align: right;
+		padding: 1.5em;
+	}
+
+	#contact img {
+		width: 80%;
+	}
+
+	.left {
+		float: none;
+		width: 100%;
+		margin: 1em 0;
+		padding: 1em;
+	}
+
+	.right {
+		float: none;
+		text-align: center;
+
+	}
+
+	.right p {
+		float: none;
+		text-align: center;
+
+	}
+
+	footer p, ul {
+		text-align: center;
+	}
+
+}
+
+
 @media only screen and (max-width: 509px) {
+	h2 {
+		font-size: 3em;
+	}
 
 	img {
 		width: 100%;
@@ -373,6 +407,19 @@ footer p {
 	body {
 		float: none;
 		text-align: center;
+		font-size: 1em;
+	}
+	
+	header img {
+		/*padding: 1em 0 4em;*/
+	}
+
+	h2 {
+		line-height: 1.5em;
+	  }
+	nav a {
+		font-size: 1em;
+		padding: .5em;	
 	}
 
 	#events img {
@@ -382,6 +429,28 @@ footer p {
 		padding-top: .5em;	
 	}
 
-	#contact {}
+	#events p, ul {
+		text-align: center;
+		padding: .5em;
+	}
 
-}
+	.left {
+		text-align: center;
+		float: none;
+		width: 100%;
+		margin: 1em 0;
+		padding: 1em;
+	}
+
+	#slogan { 
+			padding: .8em 1em 2em;
+	} 
+
+	#contact p {
+			font-size: 1.5em;
+	}
+
+	#contact img {
+		width: 50%
+	}
+}	
